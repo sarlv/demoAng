@@ -1,0 +1,33 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body ng-app="demoAng">
+
+    <p>
+        <a href="#/index">index</a>
+        <a href="#/about">about</a>
+    </p>
+
+    <ng-view></ng-view>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/directives/directives.js"></script>
+    <script src="scripts/factories/factories.js"></script>
+    <script src="scripts/controllers/MainCtrl.js"></script>
+    <script src="scripts/controllers/AboutCtrl.js"></script>
+</body>
+
+</html>
